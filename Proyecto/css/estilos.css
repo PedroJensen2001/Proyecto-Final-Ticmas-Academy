@@ -1,0 +1,124 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {height: cover;}body {background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 220px 400px;
+    
+}
+
+.título {
+    color: black;
+    font-family: 'Open Sans', sans-serif;;
+    position: relative;
+    top: 150px ; left: 450px;
+    background-color: violet;
+}
+
+.info1 {
+    font-family: Impact;
+    background-color: gray;
+    background-attachment: scroll;
+    display: inline-block;
+    border-radius: 0px 15px 15px 0px;  /* 4 parámetros */
+      }
+
+
+
+.info2 {
+    font-family: Tahoma;
+    position: relative;
+    top: -500px ; left: 450px;  
+}
+
+.parrafo1 {
+    background-color: rgb(135, 216, 115);
+}
+
+
+h2 {
+    background-color: aquamarine;
+}
+
+h2, h3 {
+    font-family: 'Aboreto', cursive;
+    font-weight: bolder;
+
+}
+
+
+h4 {
+    background-color: gainsboro;
+    font-family: 'Fjalla One', sans-serif;
+
+
+}
+
+
+#whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: none;
+
+    
+}
+
+#sobre_mi {
+    font-family: Verdana;
+
+}
+
+/** Estilo Reloj  */
+
+.clockdate-wrapper {
+    background-color: #333;
+    padding:1px;
+    max-width:120px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:0%;
+    margin-right: 2%
+}
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:20px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:30px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+}
+
+
+#boton_ocultar {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    position: absolute;
+    right: 1%;
+    top: 4%;
+
+    };
